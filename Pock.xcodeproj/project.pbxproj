@@ -7,7 +7,6 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		340520BD24F6DF510082955A /* Secrets.plist in Resources */ = {isa = PBXBuildFile; fileRef = 340520BC24F6DF510082955A /* Secrets.plist */; };
 		3406434D227F3FFF00981372 /* PockMainController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 3406434C227F3FFF00981372 /* PockMainController.xib */; };
 		3407F9DE22D0F0A60072E742 /* Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3407F9DD22D0F0A60072E742 /* Extensions.swift */; };
 		340C833F25D06F510089A005 /* NSMenuBadgeItemView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 340C833B25D06F510089A005 /* NSMenuBadgeItemView.xib */; };
@@ -106,7 +105,6 @@
 		0023778C90876B75927D08B1 /* Pods-Dev.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Dev.release.xcconfig"; path = "Pods/Target Support Files/Pods-Dev/Pods-Dev.release.xcconfig"; sourceTree = "<group>"; };
 		0977870FCAE1CDC7CD046166 /* Pods-Targets-Pock.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Targets-Pock.release.xcconfig"; path = "Pods/Target Support Files/Pods-Targets-Pock/Pods-Targets-Pock.release.xcconfig"; sourceTree = "<group>"; };
 		2D76D0DCC09BBC431C56941A /* Pods-Targets-Pock.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Targets-Pock.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Targets-Pock/Pods-Targets-Pock.debug.xcconfig"; sourceTree = "<group>"; };
-		340520BC24F6DF510082955A /* Secrets.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Secrets.plist; sourceTree = "<group>"; };
 		3406434C227F3FFF00981372 /* PockMainController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = PockMainController.xib; sourceTree = "<group>"; };
 		3407F9DD22D0F0A60072E742 /* Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Extensions.swift; sourceTree = "<group>"; };
 		340C833B25D06F510089A005 /* NSMenuBadgeItemView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = NSMenuBadgeItemView.xib; sourceTree = "<group>"; };
@@ -338,7 +336,6 @@
 			children = (
 				34A0E79425A8B1BE002F58A1 /* Resources */,
 				342D83A52278D5CF000D79DA /* Info.plist */,
-				340520BC24F6DF510082955A /* Secrets.plist */,
 				342D83A32278D5CF000D79DA /* Assets.xcassets */,
 				342D83A42278D5CF000D79DA /* Pock.entitlements */,
 			);
@@ -667,7 +664,6 @@
 				345E2EC823C2691900A947FC /* WidgetsManagerListPane.xib in Resources */,
 				34EF604B23C12E1300FBE9E7 /* AlertWindowController.xib in Resources */,
 				34F76490250158BD00310698 /* ProcessWidgetController.xib in Resources */,
-				340520BD24F6DF510082955A /* Secrets.plist in Resources */,
 				34A0E79625A8B1EB002F58A1 /* install_defaults.gif in Resources */,
 				34B6D0FE25A62111001C925C /* GeneralPreferencePane.xib in Resources */,
 				96FE269F22D0C3810071645C /* Localizable.strings in Resources */,

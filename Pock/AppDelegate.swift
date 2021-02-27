@@ -164,19 +164,6 @@ class AppDelegate: NSObject, NSApplicationDelegate {
     /// Finish launching
     func applicationDidFinishLaunching(_ aNotification: Notification) {
         
-        /// Initialize Crashlytics
-        #if !DEBUG
-        if let path = Bundle.main.path(forResource: "Secrets", ofType: "plist") {
-            if let secrets = NSDictionary(contentsOfFile: path) as? [String: String], let secret = secrets["AppCenter"] {
-                UserDefaults.standard.register(defaults: ["NSApplicationCrashOnExceptions": true])
-				AppCenter.start(withAppSecret: secret, services: [
-					Analytics.self,
-					Crashes.self
-				])
-            }
-        }
-        #endif
-        
         /// Initialise Pock
 		self.initialize()
 		
