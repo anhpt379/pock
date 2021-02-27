@@ -18,8 +18,8 @@ jobs:
 
     - name: Zip up
       run: |
-        cd ./build/Release/
-        zip -r "../../Pock.app.zip" "Pock.app/"
+        cd /Users/runner/Library/Developer/Xcode/DerivedData/Pock-*/Build/Products/Debug/
+        zip -r "$GITHUB_WORKSPACE/Pock.app.zip" "Pock.app/"
 
     - name: Create Release
       id: create_release
