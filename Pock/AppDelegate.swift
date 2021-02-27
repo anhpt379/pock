@@ -286,7 +286,7 @@ class AppDelegate: NSObject, NSApplicationDelegate {
     }
     
     private func registerGlobalHotKey() {
-        if let keyCombo = KeyCombo(doubledCocoaModifiers: .control) {
+        if let keyCombo = KeyCombo(doubledCocoaModifiers: .option) {
             let hotKey = HotKey(identifier: "TogglePock", keyCombo: keyCombo, target: self, action: #selector(togglePock))
             hotKey.register()
         }
